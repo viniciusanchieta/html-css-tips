@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #151719;
+    border-radius: 5px;
+    position: relative;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container::before {
+    content: '';
+
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom right, #424679, #4296d6);
+    z-index: -1;
+    margin: -6px;
+    border-radius: 8px;
+}

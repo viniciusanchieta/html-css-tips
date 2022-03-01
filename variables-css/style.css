@@ -1,0 +1,20 @@
+/* Criando as variáveis */
+:root{
+    --cor-fundo-principal: #fff;
+    --cor-fonte-principal: #000;
+    --borda-principal: 1px solid rgb(126, 125, 125);
+    --tamanho-fonte-principal: 16px;
+}
+    
+/* Utilizando as variáveis */
+.container{
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-fonte-principal);
+    border:var(--borda-principal);
+    font-size: var(--tamanho-fonte-principal);
+}
+
+
+
+
+
